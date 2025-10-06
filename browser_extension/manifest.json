@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Playlist Length",
+  "version": "1.0",
+  "description": "Get stats for YouTube playlists",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "pages/popup.html",
+    "default_icon": {
+      "16": "icons/logo.png",
+      "48": "icons/favicon.png"
+    }
+  },
+  "icons": {
+    "16": "icons/logo.png",
+    "48": "icons/favicon.png"
+  }
+}
